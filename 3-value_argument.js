@@ -1,3 +1,3 @@
-let myval = prompt('what is your name', '');
+const myval = 'abdulhakeem';
 if (myval  !== ''){console.log(myval);}
 else {console.log('No argument');}

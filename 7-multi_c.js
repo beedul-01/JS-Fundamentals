@@ -1,6 +1,6 @@
-let times = prompt('how many times','');
-let text = 'C is fun';
-let nooc = parseInt(times);
+const times = prompt('how many times','');
+const text = 'C is fun';
+const nooc = parseInt(times);
 if(!isNaN(nooc)){
     for(i = 0;  i < nooc; i++){console.log(text);}
 }

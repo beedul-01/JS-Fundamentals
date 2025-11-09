@@ -1,4 +1,4 @@
-let times   =  8;
+const times   =  8;
 const size = parseInt(times);
 
 if (isNaN(size)) {
