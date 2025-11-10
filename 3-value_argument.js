@@ -1,6 +1,6 @@
 
 
-const myvaD = ['HBTN', 'Cool'];
+const myvaD = ['HBTN', 'Cool'] [''];
 if (myvaD[0]  === undefined ){
     console.log('No argument');
 }
