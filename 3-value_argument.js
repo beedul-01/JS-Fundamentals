@@ -1,10 +1,7 @@
+const args = process.argv.slice(2);
 
-
-const myvaD = ['HBTN', 'Cool'] [''];
-if (myvaD[0]  === undefined ){
-    console.log('No argument');
+if (args[0] === undefined) {
+  console.log("No argument");
+} else {
+  console.log(args[0]);
 }
-else {;
-    console.log(myvaD[0]);
-}
-
