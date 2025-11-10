@@ -1,4 +1,2 @@
-const para1 = 'python';
-const para2 = 'javascript';
-console.log(para1 +' is really nice');
-console.log(para2 + " is also nice");
+const para1 = [];
+console.log(para1[0] +' is ' +para1[1]);
