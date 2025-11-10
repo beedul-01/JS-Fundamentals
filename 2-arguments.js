@@ -1,23 +1,8 @@
-let arg = 80;
+let arg = []
 
-if (arg > 20 && arg < 100){console.log('arguments found')}
+if (arg.length >= 2){console.log('arguments found')}
 
-else if(arg < 100){console.log('argument found');}
-
-else{console.log('no argument');}
-
-let rag = 17;
-
-if (arg > 20 && arg < 100){console.log('arguments found')}
-
-else if(arg < 100){console.log('argument found');}
+else if(arg.length == 1){console.log('argument found');}
 
 else{console.log('no argument');}
 
-let gar = 'the';
-
-if (arg > 20 && arg < 100){console.log('arguments found')}
-
-else if(arg < 100){console.log('argument found');}
-
-else{console.log('no argument');}
