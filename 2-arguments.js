@@ -1,4 +1,4 @@
-let arg = []
+let arg = ['abdul', 'hbtn', 'cool']
 
 if (arg.length >= 2){console.log('arguments found')}
 
