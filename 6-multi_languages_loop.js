@@ -1,3 +1,3 @@
-const rayy = ['C  is fun', 'python is cool', 'javascript is amazing'];
-const i = 0
-while(i < rayy.length){console.log(`${rayy[i]}`); i++}
+const languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+
+for (const line of languages) console.log(line);

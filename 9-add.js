@@ -1,9 +1,9 @@
-
 function add(a, b) {
   return a + b;
 }
 
-const a = 485;
-const b = -493;
+const first = Number(process.argv[2]);
+const second = Number(process.argv[3]);
 
-console.log(add(a, b));
+console.log(add(first, second));
+

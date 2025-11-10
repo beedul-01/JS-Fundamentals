@@ -1,7 +1,8 @@
-const times = prompt('how many times','');
-const text = 'C is fun';
-const nooc = parseInt(times);
-if(!isNaN(nooc)){
-    for(i = 0;  i < nooc; i++){console.log(text);}
+const x = Number(process.argv[2]);
+
+if (isNaN(x)) {
+  console.log('Missing number of occurrences');
+} else {
+  for (let i = 0; i < x; i++) console.log('C is fun');
 }
-else{console.log('Missing number of occurences');}
+
