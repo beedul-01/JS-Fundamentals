@@ -1,7 +1,7 @@
 
 
 const myvaD = ['HBTN', 'Cool'];
-if (myvaD  == []){
+if (myvaD[0]  !== undefined ){
     console.log(myvaD[0]);
 }
 else {console.log('No argument');}
